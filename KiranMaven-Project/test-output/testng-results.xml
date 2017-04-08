@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="27266" started-at="2017-04-08T17:00:35Z" finished-at="2017-04-08T17:01:02Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="27266" started-at="2017-04-08T17:00:35Z" finished-at="2017-04-08T17:01:02Z">
+      <class name="NaukriTest.NaukriLogin">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:NaukriTest.NaukriLogin@396a51ab]" name="beforeTest" is-config="true" duration-ms="5306" started-at="2017-04-08T22:30:35Z" finished-at="2017-04-08T22:30:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="f()[pri:0, instance:NaukriTest.NaukriLogin@396a51ab]" name="f" duration-ms="19907" started-at="2017-04-08T22:30:40Z" finished-at="2017-04-08T22:31:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:NaukriTest.NaukriLogin@396a51ab]" name="afterTest" is-config="true" duration-ms="2040" started-at="2017-04-08T22:31:00Z" finished-at="2017-04-08T22:31:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- NaukriTest.NaukriLogin -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
