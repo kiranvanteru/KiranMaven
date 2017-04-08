@@ -30,8 +30,8 @@ public class NaukriHome {
 		Thread.sleep(5000);
 		Actions edi=new Actions(driver);
 		edi.moveToElement(ProfileEdit);
-		ProfileEdit.click();
-		ProfileSave.click();
+//		ProfileEdit.click();
+//		ProfileSave.click();
 	} 
 	
 	
