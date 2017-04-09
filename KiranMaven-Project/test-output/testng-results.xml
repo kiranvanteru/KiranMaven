@@ -2,20 +2,32 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="27266" started-at="2017-04-08T17:00:35Z" finished-at="2017-04-08T17:01:02Z">
+  <suite name="Default suite" duration-ms="30979" started-at="2017-04-09T12:53:25Z" finished-at="2017-04-09T12:53:56Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="27266" started-at="2017-04-08T17:00:35Z" finished-at="2017-04-08T17:01:02Z">
+    <test name="Default test" duration-ms="30979" started-at="2017-04-09T12:53:25Z" finished-at="2017-04-09T12:53:56Z">
       <class name="NaukriTest.NaukriLogin">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:NaukriTest.NaukriLogin@396a51ab]" name="beforeTest" is-config="true" duration-ms="5306" started-at="2017-04-08T22:30:35Z" finished-at="2017-04-08T22:30:40Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:NaukriTest.NaukriLogin@5419f379]" name="beforeTest" is-config="true" duration-ms="6512" started-at="2017-04-09T18:23:25Z" finished-at="2017-04-09T18:23:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="f()[pri:0, instance:NaukriTest.NaukriLogin@396a51ab]" name="f" duration-ms="19907" started-at="2017-04-08T22:30:40Z" finished-at="2017-04-08T22:31:00Z">
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String)[pri:0, instance:NaukriTest.NaukriLogin@5419f379]" name="f" duration-ms="22529" started-at="2017-04-09T18:23:32Z" data-provider="authentication" finished-at="2017-04-09T18:23:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kiranv23]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[kiran1234]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:NaukriTest.NaukriLogin@396a51ab]" name="afterTest" is-config="true" duration-ms="2040" started-at="2017-04-08T22:31:00Z" finished-at="2017-04-08T22:31:02Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:NaukriTest.NaukriLogin@5419f379]" name="afterTest" is-config="true" duration-ms="1653" started-at="2017-04-09T18:23:54Z" finished-at="2017-04-09T18:23:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
