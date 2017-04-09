@@ -9,6 +9,8 @@ import org.testng.annotations.Test;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.AfterTest;
 
+import browserScreen.Screenshots;
+
 import com.Naukri.PageObjects.Login;
 import com.Naukri.PageObjects.NaukriHome;
 
@@ -27,7 +29,9 @@ public class NaukriLogin {
 	  nlog=PageFactory.initElements(driver, Login.class);
 	  mnh=PageFactory.initElements(driver, NaukriHome.class);
 	  nlog.LoginNaukriHome("kiranv23", "kiran1234");
+	  Screenshots.driverScreen(driver, "NaukriHome");
 	  mnh.MyHomePage();
+	  Screenshots.driverScreen(driver, "MyNaukri");
 	  System.out.println("title of the page is "+driver.getTitle());
   }
   @BeforeTest
